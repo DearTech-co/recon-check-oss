@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02">
+  <BkToCstmrStmt>
+    <Stmt>
+      <Id>SYNTHETIC</Id>
+      <Ntry>
+        <Amt Ccy="GBP">4.50</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt><Dt>2024-01-15</Dt></BookgDt>
+        <AcctSvcrRef>BANK001</AcctSvcrRef>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>REF001</EndToEndId>
+              <TxId>TX001</TxId>
+            </Refs>
+            <RltdPties>
+              <Cdtr><Nm>Coffee</Nm></Cdtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Morning coffee</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="GBP">1200.00</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <BookgDt><Dt>2024-01-16</Dt></BookgDt>
+        <AcctSvcrRef>BANK002</AcctSvcrRef>
+        <NtryDtls>
+          <TxDtls>
+            <Refs>
+              <EndToEndId>REF002</EndToEndId>
+            </Refs>
+            <RltdPties>
+              <Dbtr><Nm>Client payment</Nm></Dbtr>
+            </RltdPties>
+            <RmtInf><Ustrd>Client payment</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+      <Ntry>
+        <Amt Ccy="GBP">19.99</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt><Dt>2024-02-01</Dt></BookgDt>
+        <NtryDtls>
+          <TxDtls>
+            <Refs><EndToEndId>REF003</EndToEndId></Refs>
+            <RltdPties><Cdtr><Nm>Software</Nm></Cdtr></RltdPties>
+            <RmtInf><Ustrd>Subscription</Ustrd></RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

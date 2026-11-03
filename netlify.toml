@@ -1,0 +1,25 @@
+# Netlify reads this file when the site is linked to the GitHub repo.
+# The production branch is chosen in the Netlify site settings. Set it to main.
+# No tokens are stored here.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# A merge or push to main. This is the live site.
+[context.production]
+  command = "npm run build"
+  publish = "dist"
+
+# A pull request. Netlify publishes a separate preview address.
+[context.deploy-preview]
+  command = "npm run build"
+  publish = "dist"
+
+# A push to any branch other than main. Netlify publishes a branch preview.
+[context.branch-deploy]
+  command = "npm run build"
+  publish = "dist"

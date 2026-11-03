@@ -1,0 +1,18 @@
+!Type:Bank
+D15/01/2024
+T-4.50
+PCoffee
+MMorning coffee
+NREF001
+^
+D16/01/2024
+T1200.00
+PClient payment
+NREF002
+^
+D01/02/2024
+T-19.99
+PSoftware
+MSubscription
+NREF003
+^

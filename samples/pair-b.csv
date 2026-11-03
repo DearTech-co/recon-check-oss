@@ -1,0 +1,7 @@
+reference,date,description,amount
+INV001,2024-01-15,Coffee,100.00
+INV002,2024-01-16,Lunch,55.00
+INV003,2024-01-24,Taxi,20.00
+INV004,2024-01-18,Duplicate,10.00
+INV006,15 Jan 2024,Format match,75
+INV008,2024-01-20,Only in B,8.00

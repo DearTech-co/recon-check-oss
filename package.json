@@ -1,0 +1,32 @@
+{
+  "name": "recon-check",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "perf": "vitest run tests/perf.test.ts",
+    "samples": "node scripts/make-samples.mjs"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^6.4.299",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.20.3/xlsx-0.20.3.tgz"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.10",
+    "vitest": "^3.2.4"
+  }
+}
